@@ -1,6 +1,22 @@
 # Grade Checker - My First Python Project
 # Created by Musab - 2026
 
+
+# 🎓 Grade Checker - معد الدرجات
+
+أول مشروع بايثون لي - by MusabZakaria01
+
+### ▶️ جرب المشروع مباشرة:
+اضغط هنا وشغل الكود:
+**[https://www.programiz.com/python-programming/online-compiler/](https://www.programiz.com/python-programming/online-compiler/)**
+
+1. انسخ الكود من ملف `main.py`
+2. الصقه في الموقع
+3. اضغط Run وادخل درجتك!
+
+### الفكرة
+برنامج بسيط يحسب التقدير من الدرجة (ممتاز، جيد جدا، إلخ)
+
 def check_grade():
     print("--- Welcome to Grade Checker ---")
     print("--- مرحبا بك في حاسبة الدرجات ---")
