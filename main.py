@@ -1,8 +1,10 @@
 # Grade Checker - My First Python Project
-# Created by Musab
+# Created by Musab - 2026
 
 def check_grade():
     print("--- Welcome to Grade Checker ---")
+    print("--- مرحبا بك في حاسبة الدرجات ---")
+    
     try:
         grade = int(input("Enter your grade (0-100): "))
         
@@ -15,9 +17,10 @@ def check_grade():
         elif grade >= 50:
             print("🙂 Pass! مقبول")
         else:
-            print("💪 Need more work! حاول تاني")
+            print("💪 Need more work! حاول تاني - شد حيلك")
             
     except:
-        print("Please enter a valid number!")
+        print("❌ Please enter a valid number!")
 
+# شغل البرنامج
 check_grade()
